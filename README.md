@@ -74,3 +74,9 @@ sudo wg show wg-home   # 应有 latest handshake；勿把私钥贴到日志
 | `install-wg-home.sh` | 安装入口；目录写死为 `$HOME/.local/share/wg-setup` |
 | `wg-up.sh` | 仓库参考副本；安装时写到固定目录 |
 | `wg-down.sh` | 同上 |
+
+## Openimg image host (FlexDCA / ScopeTask)
+
+Large audit images are hosted on **Openimg**, not in this repo. See **[OPENIMG.md](OPENIMG.md)** for CDN base, upload, Vault token policy, gitignore rules, and flapy notes.
+
+Never commit secrets, tokens, or WireGuard private keys.
